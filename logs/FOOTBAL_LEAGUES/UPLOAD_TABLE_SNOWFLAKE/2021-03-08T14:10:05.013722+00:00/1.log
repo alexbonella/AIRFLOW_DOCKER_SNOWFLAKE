@@ -1,0 +1,26 @@
+[2021-03-08 14:10:40,409] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: FOOTBAL_LEAGUES.UPLOAD_TABLE_SNOWFLAKE 2021-03-08T14:10:05.013722+00:00 [queued]>
+[2021-03-08 14:10:40,422] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: FOOTBAL_LEAGUES.UPLOAD_TABLE_SNOWFLAKE 2021-03-08T14:10:05.013722+00:00 [queued]>
+[2021-03-08 14:10:40,422] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-08 14:10:40,423] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-03-08 14:10:40,423] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-08 14:10:40,437] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): UPLOAD_TABLE_SNOWFLAKE> on 2021-03-08T14:10:05.013722+00:00
+[2021-03-08 14:10:40,442] {standard_task_runner.py:52} INFO - Started process 253 to run task
+[2021-03-08 14:10:40,449] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'FOOTBAL_LEAGUES', 'UPLOAD_TABLE_SNOWFLAKE', '2021-03-08T14:10:05.013722+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/liga_premier.py', '--cfg-path', '/tmp/tmpcvug4a39', '--error-file', '/tmp/tmpekh6sosb']
+[2021-03-08 14:10:40,450] {standard_task_runner.py:77} INFO - Job 5: Subtask UPLOAD_TABLE_SNOWFLAKE
+[2021-03-08 14:10:40,495] {logging_mixin.py:104} INFO - Running <TaskInstance: FOOTBAL_LEAGUES.UPLOAD_TABLE_SNOWFLAKE 2021-03-08T14:10:05.013722+00:00 [running]> on host f98f93e4be58
+[2021-03-08 14:10:40,534] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=yolonella2809@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Alexbonella
+AIRFLOW_CTX_DAG_ID=FOOTBAL_LEAGUES
+AIRFLOW_CTX_TASK_ID=UPLOAD_TABLE_SNOWFLAKE
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-08T14:10:05.013722+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-08T14:10:05.013722+00:00
+[2021-03-08 14:10:40,553] {cursor.py:557} INFO - query: [copy into POSICIONES_LIGAS from @STAGE_PREUPLOAD/premier_positions.csv.gz FILE_F...]
+[2021-03-08 14:10:42,100] {cursor.py:572} INFO - query execution done
+[2021-03-08 14:10:42,103] {logging_mixin.py:104} INFO - UPLOAD TABLE SUCCESS
+[2021-03-08 14:10:42,105] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-08 14:10:42,135] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=FOOTBAL_LEAGUES, task_id=UPLOAD_TABLE_SNOWFLAKE, execution_date=20210308T141005, start_date=20210308T141040, end_date=20210308T141042
+[2021-03-08 14:10:42,168] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-03-08 14:10:42,195] {local_task_job.py:146} INFO - Task exited with return code 0
