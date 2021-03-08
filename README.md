@@ -8,7 +8,9 @@
 
 # Description
 
-This repository contains a docker image that allows running a Streamlit web application. It can be used to count objects in an image or cartoonize your images.
+This repository contains a DAG that allows running an data extracting from multiple football leagues and send data into a Snowflake table in order to answer the question :
+
+* *Which teams have the most points for season 2020–2021* ? 
 
 # Publication 
 
