@@ -10,7 +10,7 @@
 
 This repository contains a DAG that allows running an data extracting from multiple football leagues and send data into a Snowflake table in order to answer the question :
 
-* ´*Which teams have the most points for season 2020–2021?*´ 
+* ´´´*Which teams have the most points for season 2020–2021?*´´´ 
 
 # Publication 
 
