@@ -1,11 +1,11 @@
 
 """
 
-********************************************************
-Autor = @lexbonella -- https://github.com/alexbonella  *                        
-Fecha = '06/03/2021'                                   * 
-Nombre = Extracting Data from Multiple football league * 
-******************************************************** 
+*************************************************************
+Author = @lexbonella -- https://github.com/alexbonella      *                        
+Date = '06/03/2021'                                         * 
+Description = Extracting Data from Multiple football league * 
+************************************************************* 
 
 """
 
