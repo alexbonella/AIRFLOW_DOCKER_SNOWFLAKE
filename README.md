@@ -1,8 +1,6 @@
 # AIRFLOW_DOCKER_SNOWFLAKE
 
 
-   **`Docker  >> Airflow >> Snowflake`**
-
 # Online Presence
 
 [![LinkedIn](https://img.shields.io/badge/-Go%20To%20LinkedIn-3b5998)](https://www.linkedin.com/in/alexanderbolano)
